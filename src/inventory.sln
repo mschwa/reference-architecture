@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schwartz.Inventory.Tests", "Schwartz.Inventory.Tests\Schwartz.Inventory.Tests.csproj", "{59817062-FF35-4E55-B2CD-17465BCFA192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schwartz.Inventory.Data", "Schwartz.Inventory.Data\Schwartz.Inventory.Data.csproj", "{F912D4B6-1A98-4322-8AD4-DFDCD2C1BC17}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Schwartz.Inventory.Worker", "Schwartz.Inventory.Worker\Schwartz.Inventory.Worker.ccproj", "{D18DC3B0-01C5-4C27-8A57-B639FD20A3F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schwartz.Inventory.Api", "Schwartz.Inventory.Api\Schwartz.Inventory.Api.csproj", "{FE46F959-09B9-4182-9AEC-E66364EFC1AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schwartz.Inventory.Notify.New", "Schwartz.Inventory.Notify.New\Schwartz.Inventory.Notify.New.csproj", "{3BBA890C-B326-45BC-85DF-062FC8936271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schwartz.Inventory.Notify", "Schwartz.Inventory.Notify\Schwartz.Inventory.Notify.csproj", "{5F1DD9D8-59B5-41A5-B57E-1A097727E74B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59817062-FF35-4E55-B2CD-17465BCFA192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59817062-FF35-4E55-B2CD-17465BCFA192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59817062-FF35-4E55-B2CD-17465BCFA192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59817062-FF35-4E55-B2CD-17465BCFA192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F912D4B6-1A98-4322-8AD4-DFDCD2C1BC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F912D4B6-1A98-4322-8AD4-DFDCD2C1BC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F912D4B6-1A98-4322-8AD4-DFDCD2C1BC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F912D4B6-1A98-4322-8AD4-DFDCD2C1BC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18DC3B0-01C5-4C27-8A57-B639FD20A3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18DC3B0-01C5-4C27-8A57-B639FD20A3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18DC3B0-01C5-4C27-8A57-B639FD20A3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18DC3B0-01C5-4C27-8A57-B639FD20A3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE46F959-09B9-4182-9AEC-E66364EFC1AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE46F959-09B9-4182-9AEC-E66364EFC1AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE46F959-09B9-4182-9AEC-E66364EFC1AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE46F959-09B9-4182-9AEC-E66364EFC1AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBA890C-B326-45BC-85DF-062FC8936271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBA890C-B326-45BC-85DF-062FC8936271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBA890C-B326-45BC-85DF-062FC8936271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBA890C-B326-45BC-85DF-062FC8936271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1DD9D8-59B5-41A5-B57E-1A097727E74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1DD9D8-59B5-41A5-B57E-1A097727E74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1DD9D8-59B5-41A5-B57E-1A097727E74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1DD9D8-59B5-41A5-B57E-1A097727E74B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

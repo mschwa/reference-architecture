@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net452": {
+      "wrappedProject": "../../Schwartz.Inventory.Data/Schwartz.Inventory.Data.csproj",
+      "bin": {
+        "assembly": "../../Schwartz.Inventory.Data/obj/{configuration}/Schwartz.Inventory.Data.dll",
+        "pdb": "../../Schwartz.Inventory.Data/obj/{configuration}/Schwartz.Inventory.Data.pdb"
+      }
+    }
+  }
+}
